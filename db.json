@@ -1,3 +1,52 @@
 {
-  "users": []
+  "users": [
+    {
+      "email": "lucaspasseli.work@gmail.com",
+      "password": "$2a$10$9Wii/8B8O8qC73URxxE3T.9ggZHhB7sH9EW9IXQ7sgkw/nkUPCXPi",
+      "name": "Lucas",
+      "age": 21,
+      "id": 1
+    },
+    {
+      "email": "joaozinho@mail.com",
+      "password": "$2a$10$p0pKBP8mOm/b5ncGVAwesepiOFJLpwZEZr4Ui/XlBafr1aOZl0KxO",
+      "name": "João",
+      "age": 18,
+      "id": 2
+    }
+  ],
+  "technologies": [
+    {
+      "name": "React",
+      "userId": 1,
+      "White in": "JavaScript",
+      "Developer": "Facebook",
+      "id": 1
+    },
+    {
+      "name": "Flask",
+      "userId": 2,
+      "White in": "Python",
+      "Developer": "Armin Ronacher",
+      "id": 2
+    }
+  ],
+  "companies": [
+    {
+      "name": "Google",
+      "Founders": [
+        "Larry Page",
+        "Sargey Brin"
+      ],
+      "id": 1
+    },
+    {
+      "name": "Netflix",
+      "Founders": [
+        "Reed Hastings",
+        "Marc Randolph"
+      ],
+      "id": 2
+    }
+  ]
 }
